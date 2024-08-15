@@ -50,5 +50,5 @@ else:
 # Prediction button
 if st.button("Predict Survival"):
     result = clf.predict(np.array([[age,fare,fs,pc,boarding,1,1,1]]))
-    st.text(result[0])
+    st.text(result[Survial])
    
